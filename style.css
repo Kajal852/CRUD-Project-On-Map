@@ -1,0 +1,50 @@
+*{
+    margin: 10px;
+    padding: 5px;
+}
+
+#head{
+    background-color: #f0fdfa;
+    border: 2px solid black ;
+    width: 400px;
+
+}
+
+h1{
+    color: black;
+    font-family: cursive;
+}
+
+table{
+    border-collapse: collapse;
+    width: 300px;
+}
+
+th{
+    font-size: 15px;
+    background: #eee;
+}
+
+th , td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+input[type=text]{
+    border-radius:20px;
+}
+
+input[type=button]{
+    width: 80px;
+    border-radius:20px;
+    color: black;
+    background: #0eb582;
+    
+}
+
+input[type=button]:hover{
+    background-color: #f0fdfa;
+}
